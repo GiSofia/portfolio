@@ -48,17 +48,20 @@ skillsHeader.forEach((el) =>{
     el.addEventListener('click', toggleSkills)
 })
 
-/*==================== QUALIFICATION TABS ====================*/
-
-
-/*==================== SERVICES MODAL ====================*/
-
-
 /*==================== PORTFOLIO SWIPER  ====================*/
+let swiper = new Swiper('.portfolio_container', {
+    cssMode: true,
+    loop: true,
 
-
-/*==================== TESTIMONIAL ====================*/
-
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
