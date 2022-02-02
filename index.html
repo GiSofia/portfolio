@@ -124,18 +124,18 @@
 
                 <div class="about_container container grid">
                     <img src="./assets/img/ab1.jpg" alt="" class="about_img">
-                </div>
 
-                <div class="about_data">
-                    <p class="about_description">Poseo conocimientos sobre diversos lenguajes, el uso de base de datos relacionales tanto para la creación como implementación de estas, 
-                        así como, de lenguajes de marcado y framework para desarrollo web. Asimismo, tengo conocimientos básicos sobre el diseño UX/UI.
-                    </p>
-                </div>
+                    <div class="about_data">
+                        <p class="about_description">Poseo conocimientos sobre diversos lenguajes, el uso de base de datos relacionales tanto para la creación como implementación de estas, 
+                            así como, de lenguajes de marcado y framework para desarrollo web. Asimismo, tengo conocimientos básicos sobre el diseño UX/UI.
+                        </p>
 
-                <div class="about_buttons">
-                    <a download="" href="./assets/pdf/Giuliana-CV.pdf" class="button button--flex">
-                        Descargar CV<i class="uil uil-download-alt button_icon"></i>
-                    </a>
+                        <div class="about_buttons">
+                            <a download="" href="./assets/pdf/Giuliana-CV.pdf" class="button button--flex">
+                                Descargar CV<i class="uil uil-download-alt button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -279,18 +279,20 @@
                         <!--Project #1-->
                         <div class="portfolio_content grid swiper-slide">
                             <img src="./assets/img/p2.jpg" alt="" class="portfolio_img">
+                            
                             <div class="portfolio_data">
                                 <h3 class="portfolio_title">Product Landing Page</h3>
                                 <a href="https://gisofia.github.io/product-landing-page/"  target="_blank" class="button button--flex button--small portfolio_button">
-                                    Ver
-                                    <i class="uil uil-arrow-right button_icon"></i>
+                                   Ver
+                                   <i class="uil uil-arrow-right button_icon"></i>
                                 </a>
-                            </div> 
+                            </div>    
                         </div>
 
                         <!--Project #2-->
                         <div class="portfolio_content grid swiper-slide">
                             <img src="./assets/img/p1.jpg" alt="" class="portfolio_img">
+
                             <div class="portfolio_data">
                                 <h3 class="portfolio_title">Personal Portfolio</h3>
                                 <a href="https://gisofia.github.io/portafolio/"  target="_blank" class="button button--flex button--small portfolio_button">
@@ -303,6 +305,7 @@
                         <!--Project #3-->
                         <div class="portfolio_content grid swiper-slide">
                             <img src="./assets/img/p3.jpg" alt="" class="portfolio_img">
+
                             <div class="portfolio_data">
                                 <h3 class="portfolio_title">Survey Form</h3>
                                 <a href="https://gisofia.github.io/survey-form/"  target="_blank" class="button button--flex button--small portfolio_button">
@@ -315,6 +318,7 @@
                         <!--Project #4-->
                         <div class="portfolio_content grid swiper-slide">
                             <img src="./assets/img/p4.jpg" alt="" class="portfolio_img">
+
                             <div class="portfolio_data">
                                 <h3 class="portfolio_title">Spiderman Animation</h3>
                                 <a href="https://codepen.io/GiSofia/full/bGoXVLY"  target="_blank" class="button button--flex button--small portfolio_button">
@@ -327,6 +331,7 @@
                         <!--Project #5-->
                         <div class="portfolio_content grid swiper-slide">
                             <img src="./assets/img/p5.jpg" alt="" class="portfolio_img">
+                            
                             <div class="portfolio_data">
                                 <h3 class="portfolio_title">Tribute Page</h3>
                                 <a href="https://gisofia.github.io/tribute-page/"  target="_blank" class="button button--flex button--small portfolio_button">
@@ -367,8 +372,8 @@
                         </div>
 
                         <div class="contact_information">
-                            <i class="uil uil-envelope contact_icon"></i>
-
+                            <i class="uil uil-envelope contact_icon"></i> 
+                 
                             <div>
                                 <h3 class="contact_title">Email</h3>
                                 <span class="contact_subtitle">giulianasaborio@gmail.com</span>
@@ -385,31 +390,30 @@
                         </div>
                     </div>
                     
-                    <form action="" class="contact_form grid">
+                    <form action="https://formspree.io/f/mbjwgyzy"
+                    method="POST" class="contact_form grid">
                         <div class="contact_inputs grid">
                             <div class="contact_content">
-                                <label for="name" class="contact_label">Nombre</label>
-                                <input type="text"  name="name" class="contact_input" required>
+                                <label for="" class="contact_label">Nombre</label>
+                                <input type="text" class="contact_input"  name="name" required>
                             </div>
-                        </div>
-                        <div class="contact_inputs grid">
+
                             <div class="contact_content">
-                                <label for="email" class="contact_label">Email</label>
-                                <input type="email" name="email" class="contact_input" required>
-                            </div>
-                        </div>
-                        <div class="contact_inputs grid">
-                            <div class="contact_content">
-                                <label for="message" class="contact_label">Mensaje</label>
-                                <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
+                                <label for="" class="contact_label">Email</label>
+                                <input type="email" class="contact_input"  name="_replyto" required>
                             </div>
                         </div>
 
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Mensaje</label>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact_input" required></textarea>
+                        </div>
+
                         <div>
-                            <a href="#" class="button button--flex">
+                            <button type="submit" class="button button--flex">
                                 Enviar
                                 <i class="uil uil-message button_icon"></i>
-                            </a>
+                            </button>
                         </div>
                     </form>
                 </div>

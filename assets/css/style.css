@@ -374,6 +374,10 @@ img{
 .button--flex{
     display: inline-flex;
     align-items: center;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: var(--font-medium);
 }
 
 /*==================== ABOUT ====================*/
@@ -388,7 +392,6 @@ img{
 
 .about_description{
     text-align: center;
-    margin-top: 15px;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -527,7 +530,7 @@ img{
 }
 
 .portfolio_img{
-    width: 290px;
+    width: 265px;
     border-radius: .5rem;
     justify-self: center;
 }
@@ -548,7 +551,7 @@ img{
 
 .swiper-portfolio-icon{
     font-size: 2rem;
-    margin-top: -5rem;
+    margin-top: -8rem;
     color: var(--first-color);
 }
 
@@ -595,7 +598,7 @@ img{
 }
 
 .contact_subtitle{
-    font-weight: var(--small-font-size);
+    font-size: var(--small-font-size);
     color: var(--text-color-light)
 }
 
@@ -928,7 +931,7 @@ img{
         right: -3.5rem;
     }
 
-    .swiper-container-horizonatal > .swiper-pagination-bullets{
+    .swiper-horizontal > .swiper-pagination-bullets{
         bottom: -4.5rem;
     }
 
