@@ -19,7 +19,7 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #fff;
+    --container-color: #fff;    
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
@@ -767,10 +767,19 @@ img{
     }
 
     .about_container,
-    .portfolio_container,
+    .skills_container,
+    .portfolio_content,
     .contact_container,
     .footer_container{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portfolio_content{
+        align-items: center;
+    }
+
+    .swiper-portfolio-icon{
+        margin-top: -2rem;
     }
 }
 
@@ -924,11 +933,11 @@ img{
     }
 
     .swiper-button-prev{
-        left: -3.5rem;
+        left: -1.5rem;
     }
 
     .swiper-button-next{
-        right: -3.5rem;
+        right: -1.5rem;
     }
 
     .swiper-horizontal > .swiper-pagination-bullets{
