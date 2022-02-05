@@ -530,7 +530,7 @@ img{
 }
 
 .portfolio_img{
-    width: 265px;
+    width: 320px;
     border-radius: .5rem;
     justify-self: center;
 }
@@ -688,7 +688,7 @@ img{
     background-color: var(--first-color);
     opacity: .8;
     padding: 0 .3rem;
-    border-radius: 18px;
+    border-radius: 16px;
     z-index: var(--z-tooltip);
     transition: .4s;
 }
@@ -748,6 +748,10 @@ img{
 
     .skills_title{
         font-size: var(--normal-font-size);
+    }
+
+    .portfolio_data{
+        align-items: center;
     }
 }
 
